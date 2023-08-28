@@ -1,6 +1,5 @@
 require "json"
 
-package = JSON.parse(File.read(File.expand_path(File.join(__dir__, "..", "info.json"))))
 name = "scandit-datacapture-frameworks-barcode"
 
 Pod::Spec.new do |s|
